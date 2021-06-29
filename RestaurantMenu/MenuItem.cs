@@ -23,7 +23,7 @@ namespace RestaurantMenu
             this.ItemPrice = price;
             this.ItemDescription = description;
             this.ItemCategory = category;
-            this.itemDateTime = DateTime.Today;
+            this.itemDateTime = DateTime.Now;
         }
     }
 }
